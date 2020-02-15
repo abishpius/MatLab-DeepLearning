@@ -76,5 +76,7 @@ testpreds = classify(flowernet,testImgs);
 ## Documentation
 [Matlab DeepLearning Documentation](https://www.mathworks.com/help/deeplearning/index.html)
 
+All Credit for information listed goes to [Mathworks](https://www.mathworks.com/)!
+
 
 
