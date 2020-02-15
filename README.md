@@ -33,3 +33,48 @@ options = trainingOptions('sgdm','InitialLearnRate', 0.001);
 ```Matlab
 testpreds = classify(flowernet,testImgs);
 ```
+
+## Transfer Learning Function Summary
+
+### Create a network
+| Function       | Description           | 
+| ------------- |:-------------:| 
+| alexnet      | Load pretrained network “AlexNet”| 
+| supported networks     |View list of available pretrained networks     |   
+| fullyConnectedLayer | Create new fully connected network layer      |
+| classificationLayer | Create new output layer for a classification network     |
+
+### Get training images
+| Function       | Description           | 
+| ------------- |:-------------:| 
+| imageDatastore      | Create datastore reference to image files| 
+| augmentedImageDatastore    |Preprocess a collection of image files     |   
+| splitEachLabel| Divide datastore into multiple datastores      |
+ 
+### Set training algorithm options
+| Function       | Description           | 
+| ------------- |:-------------:| 
+| trainingOptions      | Create variable containing training algorithm options| 
+  
+### Perform training
+| Function       | Description           | 
+| ------------- |:-------------:| 
+| trainNetwork      | Perform training| 
+
+### Use trained network to perform classifications
+| Function       | Description           | 
+| ------------- |:-------------:| 
+| classify     | Obtain trained network's classifications of input images| 
+
+### Evaluate trained network
+| Function       | Description           | 
+| ------------- |:-------------:| 
+| nnz     | Count non-zero elements in an array| 
+| confusionchart    |Calculate confusion matrix    |   
+| heatmap| Visualize confusion matrix as a heatmap     |
+
+
+
+
+
+
