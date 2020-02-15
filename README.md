@@ -73,8 +73,8 @@ testpreds = classify(flowernet,testImgs);
 | confusionchart    |Calculate confusion matrix    |   
 | heatmap| Visualize confusion matrix as a heatmap     |
 
-
-
+## Documentation
+[Matlab DeepLearning Documentation](https://www.mathworks.com/help/deeplearning/index.html)
 
 
 
